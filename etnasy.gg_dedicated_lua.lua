@@ -1570,11 +1570,11 @@ local widgets = {
             local system_time_string = string.format("%02d:%02d:%02d", system_time.hour, system_time.minute, system_time.second)
 
 
-            local text = "gamesense.pl | " .. main.steamname .. " | " .. system_time_string
+            local text = "etnasy.gg | " .. main.steamname .. " | " .. system_time_string
             
             if globals.is_in_game then
                   local ping = net_channel:get_latency(0)*1000 
-                  text = "gamesense.pl | " .. main.steamname .. (net_channel:is_loopback() and " | loopback | " or " | delay: " .. math.floor(ping) .. "ms | ") .. system_time_string
+                  text = "etnasy.gg | " .. main.steamname .. (net_channel:is_loopback() and " | loopback | " or " | delay: " .. math.floor(ping) .. "ms | ") .. system_time_string
             end
             
             local text_size = render.measure_text(fonts.verdana, text)
