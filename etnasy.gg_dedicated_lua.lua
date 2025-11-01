@@ -1594,7 +1594,7 @@ local widgets = {
             if menu.visual.interface_panelposition:get() == 0 then
                 render.text(fonts.verdana, vector(80, main.screen_size.y /2), color(menu.visual.interface_color:get().r,menu.visual.interface_color:get().g,menu.visual.interface_color:get().b, 255), "d", string.format("[ALPHA]", info.build:upper()))
                 --render.text(fonts.verdana, vector(36, main.screen_size.y /2), color(205, 205, 205, 255), "d", "GAME")
-                enchantedTextEffect(fonts.verdana, 5,main.screen_size.y /2, color(205,205,205,255), color(menu.visual.interface_color:get().r,menu.visual.interface_color:get().g,menu.visual.interface_color:get().b,255), "d", "GAMESENSE.PL", 1)
+                enchantedTextEffect(fonts.verdana, 5,main.screen_size.y /2, color(205,205,205,255), color(menu.visual.interface_color:get().r,menu.visual.interface_color:get().g,menu.visual.interface_color:get().b,255), "d", "ETNASY.GG", 1)
             elseif menu.visual.interface_panelposition:get() == 1 then
                 render.text(fonts.verdana, vector(info.build == 'stable' and main.screen_size.x - 46 or main.screen_size.x - 34, main.screen_size.y /2), color(menu.visual.interface_color:get().r,menu.visual.interface_color:get().g,menu.visual.interface_color:get().b, 255), "d", string.format("[%s]", info.build:upper()))
                 --render.text(fonts.verdana, vector(info.build == 'stable' and main.screen_size.x - 76 or main.screen_size.x - 64, main.screen_size.y /2), color(205, 205, 205, 255), "d", "GAME")
